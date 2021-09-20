@@ -1,0 +1,134 @@
+body {
+  color: aliceblue;
+}
+
+.exactCenter {
+  width: 40%;
+  height: 100%;
+
+  background-color: #000032;
+  /* top: 50%;
+    left: 50%; */
+  /* margin-top: -250px;
+    margin-left: -250px; */
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cards {
+  padding-top: 2%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  /* grid-gap: 3rem;  */
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  /* padding-right: 10%; */
+  /* padding-bottom: 10%;
+
+     /*  */
+  margin-top: 30px;
+  box-shadow: 4px 4px 4px 4px rgb(170, 255, 0);
+  /* width: 100%; */
+  border-radius: 10px;
+}
+
+.card {
+  box-shadow: 4px 4px 4px 4px rgb(170, 255, 0);
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card:hover {
+  box-shadow: 8px 8px 8px 8px rgb(138, 219, 138);
+}
+
+.card2 {
+  box-shadow: 4px 4px 4px 4px rgb(255, 191, 0);
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card2:hover {
+  box-shadow: 8px 8px 8px 8px rgb(255, 219, 88);
+}
+
+.card3 {
+  box-shadow: 4px 4px 4px 4px rgb(224, 176, 255);
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card3:hover {
+  box-shadow: 8px 8px 8px 8px rgb(218, 112, 214);
+}
+
+.form {
+  background-color: #000032;
+  color: #000032;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  padding: 10px;
+  color: rgb(255, 219, 88);
+}
+
+.description {
+  padding: 10px;
+}
+
+.btn {
+  box-shadow: none;
+  border: none;
+  text-shadow: none;
+}
+.plus-button {
+  background: chartreuse;
+  font-size: 20px;
+  color: black;
+  font-weight: bolder;
+  background: rgb(138, 219, 138);
+  padding: 6px;
+}
+
+.d-none {
+  display: none;
+}
+
+.add-btn {
+  background: green;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+/* //// addtotoday page */
+
+.form-add {
+  display:flex;
+  /* width: 100%; */
+  /* flex-direction: column; */
+  background: #333;
+}
+
+.title-feild {
+  width: 600px;
+  padding: 10px 50px;
+}
+
+.description-feild {
+  width: 600px;
+  padding: 10px 50px;
+  margin: 10px 0px;
+}
